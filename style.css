@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* -------NAVBAR------ */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: silver;
+    width: 1080px;
+    margin: 0 auto;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.navbar h1 {
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.navbar input{
+    height: 25px;
+    width: 265px;
+    border-radius: 4px;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+.navbar button {
+    padding: 7px 15px;
+    background-color: aqua;
+    box-shadow: 3px 3px black;
+    margin-right: 20px;
+}
+
+/* ----MAIN CONTENT--- */
+
+.container{
+    border: 4px solid black;
+    width: 1080px;
+    margin: 0 auto;
+    height: 500px;
+    display: flex;
+}
+
+.col3 {
+    flex: 4;
+    border: 2px solid red;
+    padding: 20px;
+}
+
+.col2{
+    flex: 1;
+    border: 2px solid red;
+    padding: 20px;
+}
+
+/* --------NINJA CARDS-------- */
+.card{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.word{
+    flex: 2;
+}
+
+.word h2,
+.word p,
+.word button{
+    margin-bottom: 7px;
+}
+
+.word-description{
+    flex: 3;
+}
+
+.word button{
+    padding: 7px 17px;
+    background: orange;
+    box-shadow: 3px 3px black;
+}
+
+/*--------DOJONARY CARD-------*/
+
+.dojonary {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.dojonary h2{
+    margin-bottom: 15px
+}
+
+.dojonary button{
+    padding: 7px 40px;
+    background-color: greenyellow;
+    box-shadow: 3px 3px black;
+}
